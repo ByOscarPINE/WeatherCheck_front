@@ -18,7 +18,7 @@ export default function Home() {
           verifica el clima.
         </span>
         <div className={subtitle({ class: "mt-4" })}>
-          Basado en datos locales.
+          Proyecto IoT.
         </div>
       </div>
 
@@ -47,7 +47,7 @@ export default function Home() {
       <div className="mt-8">
         <Snippet hideCopyButton hideSymbol variant="bordered">
           <span>
-            Get started by editing <Code color="primary">app/page.tsx</Code>
+            <Code color="primary"> <Link href="/weather">Verifica el clima</Link></Code>
           </span>
         </Snippet>
       </div>
